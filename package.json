@@ -1,10 +1,23 @@
 {
+  "name": "project4_openboard",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+    "node": "14.18.0",
+    "npm":"7.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.17.2",
     "socket.io": "^4.4.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "description": ""
 }
